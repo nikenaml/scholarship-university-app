@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_activity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E5E6"
+    tools:ignore="NamespaceTypo" >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+                <FrameLayout
+                    android:paddingTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    
+                    <ImageView
+                        android:id="@+id/img_item_photo"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:paddingTop="10dp"
+                        tools:src="@color/colorAccent"/>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_item_nama"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="@string/nama_beasiswa"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_asal"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="@string/asal"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_isi"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="6dp"
+                android:text="@string/isi"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

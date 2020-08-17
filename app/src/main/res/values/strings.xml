@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daftar Info Beasiswa 2019</string>
+    <string name="nama_beasiswa">Nama Beasiswa</string>
+    <string name="asal">Asal Beasiswa</string>
+    <string name="isi">Isi Beasiswa</string>
+    <string name="about">Profile</string>
+    <string name="nama_profile">Niken Amelia</string>
+    <string name="email">nikenkenaml@gmail.com</string>
+</resources>
